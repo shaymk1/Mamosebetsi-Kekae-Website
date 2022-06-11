@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Mamosebetsi-VSCode-porfolio/static/css/main.24fae35f.css",
-    "main.js": "/Mamosebetsi-VSCode-porfolio/static/js/main.1fb78fd0.js",
-    "static/js/787.50a61aeb.chunk.js": "/Mamosebetsi-VSCode-porfolio/static/js/787.50a61aeb.chunk.js",
-    "static/media/SqlLogo.png": "/Mamosebetsi-VSCode-porfolio/static/media/SqlLogo.85fb38d6773862e917f4.png",
-    "static/media/MongoDBLogo.png": "/Mamosebetsi-VSCode-porfolio/static/media/MongoDBLogo.1df44ece8cf851cecf69.png",
-    "static/media/NodeJSLogo.png": "/Mamosebetsi-VSCode-porfolio/static/media/NodeJSLogo.aabc0115471d1e8b2d6e.png",
-    "static/media/ReactLogo.png": "/Mamosebetsi-VSCode-porfolio/static/media/ReactLogo.37940586dd863909ffca.png",
-    "static/media/TailwindLogo.png": "/Mamosebetsi-VSCode-porfolio/static/media/TailwindLogo.36b2728bf0d14b7b7576.png",
-    "static/media/PythonLogo.png": "/Mamosebetsi-VSCode-porfolio/static/media/PythonLogo.2e65c2b73eddaaf97e06.png",
-    "static/media/DockerLogo.png": "/Mamosebetsi-VSCode-porfolio/static/media/DockerLogo.6d1afdb456643d603142.png",
-    "static/media/TypescriptLogo.png": "/Mamosebetsi-VSCode-porfolio/static/media/TypescriptLogo.c4105801aadf2606ac30.png",
-    "static/media/ReduxLogo.png": "/Mamosebetsi-VSCode-porfolio/static/media/ReduxLogo.296b9306ae3e4de348c6.png",
-    "static/media/FirebaseLogo.png": "/Mamosebetsi-VSCode-porfolio/static/media/FirebaseLogo.a5f9f1fd96c36040dd43.png",
-    "static/media/JsLogo.png": "/Mamosebetsi-VSCode-porfolio/static/media/JsLogo.db393457bf6303d846d6.png",
-    "index.html": "/Mamosebetsi-VSCode-porfolio/index.html",
-    "main.24fae35f.css.map": "/Mamosebetsi-VSCode-porfolio/static/css/main.24fae35f.css.map",
-    "main.1fb78fd0.js.map": "/Mamosebetsi-VSCode-porfolio/static/js/main.1fb78fd0.js.map",
-    "787.50a61aeb.chunk.js.map": "/Mamosebetsi-VSCode-porfolio/static/js/787.50a61aeb.chunk.js.map"
+    "main.css": "/Mamosebetsi-Kekae-Website/static/css/main.24fae35f.css",
+    "main.js": "/Mamosebetsi-Kekae-Website/static/js/main.75fd371e.js",
+    "static/js/787.50a61aeb.chunk.js": "/Mamosebetsi-Kekae-Website/static/js/787.50a61aeb.chunk.js",
+    "static/media/SqlLogo.png": "/Mamosebetsi-Kekae-Website/static/media/SqlLogo.85fb38d6773862e917f4.png",
+    "static/media/MongoDBLogo.png": "/Mamosebetsi-Kekae-Website/static/media/MongoDBLogo.1df44ece8cf851cecf69.png",
+    "static/media/NodeJSLogo.png": "/Mamosebetsi-Kekae-Website/static/media/NodeJSLogo.aabc0115471d1e8b2d6e.png",
+    "static/media/ReactLogo.png": "/Mamosebetsi-Kekae-Website/static/media/ReactLogo.37940586dd863909ffca.png",
+    "static/media/TailwindLogo.png": "/Mamosebetsi-Kekae-Website/static/media/TailwindLogo.36b2728bf0d14b7b7576.png",
+    "static/media/PythonLogo.png": "/Mamosebetsi-Kekae-Website/static/media/PythonLogo.2e65c2b73eddaaf97e06.png",
+    "static/media/DockerLogo.png": "/Mamosebetsi-Kekae-Website/static/media/DockerLogo.6d1afdb456643d603142.png",
+    "static/media/TypescriptLogo.png": "/Mamosebetsi-Kekae-Website/static/media/TypescriptLogo.c4105801aadf2606ac30.png",
+    "static/media/ReduxLogo.png": "/Mamosebetsi-Kekae-Website/static/media/ReduxLogo.296b9306ae3e4de348c6.png",
+    "static/media/FirebaseLogo.png": "/Mamosebetsi-Kekae-Website/static/media/FirebaseLogo.a5f9f1fd96c36040dd43.png",
+    "static/media/JsLogo.png": "/Mamosebetsi-Kekae-Website/static/media/JsLogo.db393457bf6303d846d6.png",
+    "index.html": "/Mamosebetsi-Kekae-Website/index.html",
+    "main.24fae35f.css.map": "/Mamosebetsi-Kekae-Website/static/css/main.24fae35f.css.map",
+    "main.75fd371e.js.map": "/Mamosebetsi-Kekae-Website/static/js/main.75fd371e.js.map",
+    "787.50a61aeb.chunk.js.map": "/Mamosebetsi-Kekae-Website/static/js/787.50a61aeb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.24fae35f.css",
-    "static/js/main.1fb78fd0.js"
+    "static/js/main.75fd371e.js"
   ]
 }
