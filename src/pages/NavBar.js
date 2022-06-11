@@ -48,7 +48,7 @@ const NavBar = ({ showPage, setShowPage }) => {
           <img
             src={JSIcon}
             alt="JS Icon"
-            className="w-7 mr-1  text-yellow_vs"
+            className="mr-1 w-7 text-yellow_vs"
           />
           Home.js
         </ActiveContainer>
@@ -61,7 +61,7 @@ const NavBar = ({ showPage, setShowPage }) => {
           <img
             src={JSIcon}
             alt="JS Icon"
-            className="w-7 mr-1  text-yellow_vs"
+            className="mr-1 w-7 text-yellow_vs"
           />
           Home.js
         </Container>
@@ -75,7 +75,7 @@ const NavBar = ({ showPage, setShowPage }) => {
           <img
             src={JSIcon}
             alt="JS Icon"
-            className="w-7 mr-1  text-yellow_vs"
+            className="mr-1 w-7 text-yellow_vs"
           />
           About.js
           <XIcon
@@ -96,7 +96,7 @@ const NavBar = ({ showPage, setShowPage }) => {
           <img
             src={JSIcon}
             alt="JS Icon"
-            className="w-7 mr-1  text-yellow_vs"
+            className="mr-1 w-7 text-yellow_vs"
           />
           About.js
           <XIcon
@@ -118,9 +118,9 @@ const NavBar = ({ showPage, setShowPage }) => {
           <img
             src={JSIcon}
             alt="JS Icon"
-            className="w-7 mr-1  text-yellow_vs"
+            className="mr-1 w-7 text-yellow_vs"
           />
-          Resume.js
+          Skills.js
           <XIcon
             className="w-6 ml-4 hover:bg-gray-600 hover:rounded"
             onClick={(e) => {
@@ -139,9 +139,9 @@ const NavBar = ({ showPage, setShowPage }) => {
           <img
             src={JSIcon}
             alt="JS Icon"
-            className="w-7 mr-1  text-yellow_vs"
+            className="mr-1 w-7 text-yellow_vs"
           />
-          Resume.js
+          Skills.js
           <XIcon
             className="w-6 ml-4 hover:bg-gray-600 hover:rounded"
             onClick={(e) => {
@@ -153,44 +153,50 @@ const NavBar = ({ showPage, setShowPage }) => {
           />
         </Container>
       )}
-      {hidePage.includes("contact") ? null : showPage === "contact" ? (
-        <ActiveContainer
-          onClick={() => {
-            setShowPage("contact");
-          }}
-        >
-          <img src={JSIcon} alt="JS Icon" className="w-7 mr-1 text-yellow_vs" />
-          Contact.js
-          <XIcon
-            className="w-6 ml-4 hover:bg-gray-600 hover:rounded"
-            onClick={(e) => {
-              e.stopPropagation();
-              setShowPage("home");
-              setHidePage(prevState=>[...prevState, "contact"]);
-            }}
-          />
-        </ActiveContainer>
-      ) : (
-        <Container
-          onClick={() => {
-            setShowPage("contact");
-          }}
-        >
-          <img src={JSIcon} alt="JS Icon" className="w-7 mr-1 text-yellow_vs" />
-          Contact.js
-          <XIcon
-            className="w-6 ml-4 hover:bg-gray-600 hover:rounded"
-            onClick={(e) => {
-              e.stopPropagation();
-              setShowPage("home");
-              setHidePage(prevState=>[...prevState, "contact"]);
-              console.log(hidePage);
-
-            }}
-          />
-        </Container>
-      )}
+      
+      
+      
     </div>
   );
 };
 export default NavBar;
+
+
+// {
+// 	hidePage.includes('contact') ? null : showPage === 'contact' ? (
+// 		<ActiveContainer
+// 			onClick={() => {
+// 				setShowPage('contact');
+// 			}}
+// 		>
+// 			<img src={JSIcon} alt="JS Icon" className="mr-1 w-7 text-yellow_vs" />
+// 			Contact.js
+// 			<XIcon
+// 				className="w-6 ml-4 hover:bg-gray-600 hover:rounded"
+// 				onClick={(e) => {
+// 					e.stopPropagation();
+// 					setShowPage('home');
+// 					setHidePage((prevState) => [...prevState, 'contact']);
+// 				}}
+// 			/>
+// 		</ActiveContainer>
+// 	) : (
+// 		<Container
+// 			onClick={() => {
+// 				setShowPage('contact');
+// 			}}
+// 		>
+// 			<img src={JSIcon} alt="JS Icon" className="mr-1 w-7 text-yellow_vs" />
+// 			Contact.js
+// 			<XIcon
+// 				className="w-6 ml-4 hover:bg-gray-600 hover:rounded"
+// 				onClick={(e) => {
+// 					e.stopPropagation();
+// 					setShowPage('home');
+// 					setHidePage((prevState) => [...prevState, 'contact']);
+// 					console.log(hidePage);
+// 				}}
+// 			/>
+// 		</Container>
+// 	);
+// }
